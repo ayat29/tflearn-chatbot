@@ -1,0 +1,11 @@
+{"buckets": [
+  {"type": "greeting",
+  "prompts": ["hello", "hi", "how are you doing", "what's up", "how are you"],
+  "returns": ["Hello!", "Hope you're doing well", "Good to see you!", "Hi!"]
+  },
+ {"type": "farewell",
+  "prompts": ["bye", "good bye", "see you", "hope to see you again"],
+  "returns": ["Good bye", "Hope to see you soon", "See you later", "I enjoyed my time with you!"]
+}
+  ]
+}

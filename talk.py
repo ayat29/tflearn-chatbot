@@ -50,7 +50,7 @@ net = tflearn.fully_connected(net, 8)
 net = tflearn.fully_connected(net, len(output[0]), activation = "softmax")
 net = tflearn.regression(net)
 model = tflearn.DNN(net)
-model.fit(input_d, output, n_epoch=1000, batch_size=8, show_metric=True)
+model.fit(input_d, output, n_epoch=500, batch_size=4, show_metric=True)
 model.save("model.tflearn")
 def converter(sentence, words):
     pot = [0 for _ in range(len(words))]
